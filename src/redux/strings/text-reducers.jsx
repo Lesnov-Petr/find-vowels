@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialText = {
-  isText: [],
+  arrayText: [],
   isLoading: false,
   error: null,
 };
@@ -14,7 +14,7 @@ const { actions, reducer } = createSlice({
       state.isLoading = true;
     },
     queryTextSuccess: (state, { payload }) => {
-      state.isText = payload;
+      state.arrayText = [...payload];
       state.isLoading = false;
     },
     queryTextError: (state, { payload }) => {

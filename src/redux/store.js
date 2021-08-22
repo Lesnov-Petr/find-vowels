@@ -19,7 +19,7 @@ const middleware = (getDefaultMiddleware) =>
 
 const store = configureStore({
   reducer: {
-    isText: reducer,
+    text: reducer,
   },
   middleware,
   devTools: process.env.NODE_ENV === "development",

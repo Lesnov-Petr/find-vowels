@@ -2,7 +2,7 @@
   "name": "find-vowels",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Lesnov-Petr.github.io/React",
+  "homepage": "https://lesnov-petr.github.io/find-vowels/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.1",
     "@testing-library/jest-dom": "^5.11.10",
